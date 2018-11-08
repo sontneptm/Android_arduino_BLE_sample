@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLEsample</string>
+    <string name="action_connect">연결</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="connect">connect</string>
+</resources>

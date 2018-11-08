@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dip"
+    android:background="@drawable/shape_rounded_conner" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/shape_rounded_conner">
+
+        <LinearLayout
+            android:id="@+id/llDialogScanning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/shape_rounded_conner">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDialogScanEnable"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Stop"
+            android:textColor="#555555"
+            android:textSize="14dip" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="#353a3d"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dip"
+        android:text="검색된 장치"
+        android:textColor="#ffffff"
+        android:textSize="14dip" />
+
+    <ListView
+        android:id="@+id/lvScannedDeviceList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#dddddd"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:layerType="software"
+        android:cacheColorHint="#ffffff"
+        android:background="@drawable/shape_rounded_conner"/>
+
+</LinearLayout>
