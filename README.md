@@ -8,8 +8,8 @@
 ## 수정할 때 주의 할 점
 
 - target SDK를 22 버전 이상으로 사용할때 
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" 
+uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" 
 두 퍼미션을 허용하지 않으면 검색이 되지 않습니다.
 
 - 오렌지보드외에 다른 기기와 연결하기 위해서는 uuid를 수정해야 합니다. uuid와 그외에 BLE 기술에 대한 설명은 http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=lecture_tip&wr_id=20 에 훌륭히 설명되어 있으니 참고하시기 바랍니다.
